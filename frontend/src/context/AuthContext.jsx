@@ -27,11 +27,18 @@ export const AuthProvider = ({ children }) => {
   };
 
   const login = async (email, password) => {
-    const response = await api.post('/api/auth/login', { email, password });
-    localStorage.setItem('token', response.data.token);
-    api.defaults.headers.common['Authorization'] = `Bearer ${response.data.token}`;
-    setUser(response.data.user);
-    return response.data.user;
+    try {
+      console.log('Attempting login with:', email);
+      const response = await api.post('/api/auth/login', { email, password });
+      console.log('Login response:', response.data);
+      localStorage.setItem('token', response.data.token);
+      api.defaults.headers.common['Authorization'] = `Bearer ${response.data.token}`;
+      setUser(response.data.user);
+      return response.data.user;
+    } catch (error) {
+      console.error('Login error:', error.response?.data || error.message);
+      throw error;
+    }
   };
 
   const register = async (userData) => {

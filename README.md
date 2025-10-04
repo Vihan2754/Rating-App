@@ -87,4 +87,10 @@ npm run dev
 # 5️⃣ Open the App
 # Access the project in your browser at:
 http://localhost:5173
+<img width="1919" height="871" alt="Screenshot 2025-10-04 015953" src="https://github.com/user-attachments/assets/7c9a718b-a1ee-4f96-aed1-c980e5ad3cc9" />
+<img width="1919" height="867" alt="Screenshot 2025-10-04 020101" src="https://github.com/user-attachments/assets/7b7b1f9b-3879-42bd-8d70-f089e9a4a20e" />
+<img width="1919" height="862" alt="Screenshot 2025-10-04 020116" src="https://github.com/user-attachments/assets/82f887e1-262e-4417-853d-94eccb84a86b" />
+<img width="1919" height="871" alt="Screenshot 2025-10-04 020133" src="https://github.com/user-attachments/assets/2e53763f-2085-414c-b19d-869fe0ad5793" />
+
+<img width="1919" height="869" alt="Screenshot 2025-10-04 020029" src="https://github.com/user-attachments/assets/615abf86-4183-4d27-9e15-ea8ee47d2883" />
 

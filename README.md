@@ -2,7 +2,7 @@
 
 A **Full-Stack Web Application** that enables users to **rate stores (1–5)** with secure, role-based access for **Admins**, **Store Owners**, and **Normal Users**.  
 
-Built using **React.js**, **Express.js**, and **PostgreSQL/MySQL**, this project follows clean coding and validation best practices.  
+Built using **React.js**, **Express.js**,**Node.js**, and **MongoDB**, this project follows clean coding and validation best practices.  
 
 ---
 
@@ -16,12 +16,12 @@ Built using **React.js**, **Express.js**, and **PostgreSQL/MySQL**, this project
 | Category | Technology Used |
 |-----------|-----------------|
 | **Frontend** | React.js |
-| **Backend** | Express.js / Loopback / Nest.js |
-| **Database** | PostgreSQL / MySQL |
+| **Backend** | Express.js,NodeJS |
+| **Database** | MongoDB |
 | **Authentication** | JWT (JSON Web Token) |
-| **Styling** | Tailwind CSS / Bootstrap |
+| **Styling** | Tailwind CSS |
 | **Version Control** | Git & GitHub |
-| **Deployment** | Vercel / Render / Railway |
+| **Deployment** | Vercel  |
 
 ---
 

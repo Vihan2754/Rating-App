@@ -73,11 +73,9 @@ cd ../frontend && npm install
 
 # 3️⃣ Configure Environment
 # Create a .env file inside the backend folder and add:
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
-DB_NAME=your_db_name
-DB_HOST=localhost
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<your_db_name>
 JWT_SECRET=your_secret_key
+PORT=5000
 
 # 4️⃣ Run Servers
 # Backend
